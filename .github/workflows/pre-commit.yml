@@ -4,7 +4,7 @@ on:
   pull_request_target:
     types: [opened, reopened]
   push:
-    branches: [main]
+    branches: [main, pre-commit-example]
   workflow_dispatch:
 
 jobs:
